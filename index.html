@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- BEM
+    B - Block
+    E - Element
+    M - Modificator
+     -->
+    <header class="header">
+        <div class="container header__container">
+            <a class="header__link" href="#">
+                <img class="header__logo" src="./img/hero.svg" alt="site logo" width="236" height="26">
+            </a>
+            <nav class="header__navigator">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__inner-link header__inner-link--active" href="#">HOME</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__inner-link" href="#">ABOUT US</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__inner-link" href="#">Create your plan</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header-hamburger-menu" type="button">
+                <img class="header-menu-hamburger" src="./img/menu1.png" width="16" height="15" alt="menu">
+                <img class="header-menu-cross" src="./img/menu-x.png" alt="menu2">
+            </button>
+        </div>
+    </header>
+    
+    <!-- <main class="site-main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <h1 class="hero__heading">Great coffee made simple</h1>
+                    <p class="hero__text">
+                        Start your mornings with the world’s best coffees Try our expertly
+                        curated artisan coffees from our
+                        best roasters delivered directly to your door, at your schedule.
+                    </p>
+                    <a class="hero__link button" href="#">Create your plane</a>
+                </div>
+            </div>
+        </section>
+        <section class="our-collection">
+            <div class="container our-collection-main">
+                <ul class="our-collection-wrapper">
+                    <li class="our-collection-item">
+                        <img src="./img/kopi1 copy.png"  alt="">
+                     <div class="item-2">
+                        <h2 class="our-collection-title">
+                            <a href="#">Gran Espresso</a>
+                        </h2>
+                        <p class="our-collection-text">
+                            Light and flavorful blend with cocoa and black pepper for an intense experience.
+                        </p>
+                     </div>
+                    </li>
+                    <li class="our-collection-item">
+                        <img src="./img/kopi2.png" width="255" height="194" alt="">
+                      <div class="item-2">
+                        <h2 class="our-collection-title">
+                            <a href="#">Planalto</a>
+                        </h2>
+                        <p class="our-collection-text">
+                            Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="our-collection-item">
+                        <img src="./img/kopi3.png" width="255" height="194" alt="">
+                      <div class="item-2">
+                        <h2 class="our-collection-title">
+                            <a href="#">Danche</a>
+                        </h2>
+                        <p class="our-collection-text">
+                            Ethiopian hand-harvested blend densely packed with vibrant fruit notes.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="our-collection-item">
+                        <img src="./img/kopi4.png" width="255" height="194" alt="">
+                  <div class="item-2">
+                    <h2 class="our-collection-title">
+                        <a href="#">Danche</a>
+                    </h2>
+                    <p class="our-collection-text">
+                        Ethiopian hand-harvested blend densely packed with vibrant fruit notes.
+                    </p>
+                  </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="why-choose-us">
+            <div class="container">
+                <h1 class="why-choose-us-title">
+                    Why choose us?
+                </h1>
+                <p class="why-choose-us-text">
+                    A large part of our role is choosing which particular coffees will be featured <br>
+                    in our range. This means working closely with the best coffee growers to give <br>
+                    you a more impactful experience on every level.
+                </p>
+                <div class="why-choose-us-cards">
+                    <div class="card">
+                        <img class="why-choose-us-pic" src="./img/pic1.png" width="71" height="72" alt="icon">
+                      <div class="item-3">
+                        <h2 class="why-choose-us-card-title">
+                            Best quality
+                        </h2>
+                        <p class="why-choose-us-card-text">
+                            Discover an endless variety of the <br> world’s best artisan coffee from each <br> of our
+                            roasters.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="why-choose-us-pic" src="./img/pic2.png" width="71" height="72" alt="icon">
+                      <div class="item-3">
+                        <h2 class="why-choose-us-card-title">
+                            Exclusive benefits
+                        </h2>
+                        <p class="why-choose-us-card-text">
+                            Discover an endless variety of the <br> world’s best artisan coffee from each <br> of our
+                            roasters.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="why-choose-us-pic why-choose-us-pic3" src="./img/pic3.png" width="72" height="50"
+                            alt="icon">
+                        <div class="item-3">
+                            <h2 class="why-choose-us-card-title">
+                                Free shipping
+                            </h2>
+                            <p class="why-choose-us-card-text">
+                                Discover an endless variety of the <br> world’s best artisan coffee from each <br> of our
+                                roasters.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="how-it-works">
+            <div class="container">
+                <h2 class="how-it-works-title">
+                    How it works
+                </h2>
+                <div class="how-it-works__steps">
+                    <span class="how-it-works-line">
+                        <span class="how-it-works-sub-line"></span>
+                    </span>
+                </div>
+
+                <ul class="for-time">
+                    <li class="for-time-list">
+                        <img class="for-time-number" src="./img/01.png" width="95" height="72" alt="">
+                        <h1 class="for-time-title">
+                            Pick your <br>
+                            coffee
+                        </h1>
+                        <p class="for-time-text">
+                            Select from our evolving range of artisan coffees. Our beans are ethically sourced and we
+                            pay fair prices for them. There are new coffees in all profiles every month for you to try
+                            
+                        </p>
+                    </li>
+                    <li class="for-time-list">
+                        <img class="for-time-number" src="./img/02.png" width="95" height="72" alt="">
+                        <h1 class="for-time-title">
+                            Choose the frequency
+                        </h1>
+                        <p class="for-time-text">
+                            Select from our evolving range of artisan coffees. Our beans are ethically sourced and we
+                            pay fair prices for them. There are new coffees in all profiles every month for you to try
+                            
+                        </p>
+                    </li>
+                    <li class="for-time-list">
+                        <img class="for-time-number" src="./img/03.png" width="95" height="72" alt="">
+                        <h1 class="for-time-title">
+                            Receive and <br> enjoy!
+                        </h1>
+                        <p class="for-time-text">
+                            Select from our evolving range of artisan coffees. Our beans are ethically sourced and we
+                            pay fair prices for them. There are new coffees in all profiles every month for you to try
+                            
+                        </p>
+                    </li>
+                </ul>
+                <button class="btn">Creat your plan</button>
+            </div>
+        </section>
+    </main> -->
+    <!-- footer-part -->
+     <!-- <section class="footer">
+        
+        <div class="container">
+            <div class="footer-jobs">
+                <div class="practice">
+                    <img class="img-6" src="./img/site-logo-footer.svg" alt="site-logo">
+                  <div class="item-4">
+                    <ul class="footer-ul">
+                        <li class="footer-li">
+                            <a href="#" class="footer-a">home</a>
+                        </li>
+                        <li class="footer-li">
+                            <a href="#" class="footer-a">about us</a>
+                        </li>
+                        <li class="footer-li">
+                            <a href="#" class="footer-a">Create your plan</a>
+                        </li>
+                    </ul>
+                  </div>
+                    <div class="item-5">
+                    <img src="./img/facebook.svg" alt="" class="logo-link">
+                    <img src="./img/twiter.svg" alt="" class="logo-link">
+                    <img src="./img/instagram.svg" alt="" class="logo-link">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  -->
+      <script src="./js/main.js"></script>
+
+</body>
+
+
+
+</html>

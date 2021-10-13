@@ -1,0 +1,55 @@
+
+
+
+
+
+.footer-jobs {
+          margin-top: 200px;
+          margin-bottom: 80px;
+          height: 110px;
+          background: #2C343E;
+          display: flex;
+          align-items: center;
+      
+      }
+      
+      .practice,
+      .footer-ul {
+          display: flex;
+          align-items: center;
+      }
+      
+      .footer-ul {
+          margin-right: 250px;
+      }
+      
+      .footer-li {
+          margin-left: 33px;
+          list-style-type: none;
+      
+      }
+      
+      .img {
+          margin-left: 60px;
+          margin-right: 100px;
+      }
+      
+      .logo-link {
+          margin-left: 50px;
+      }
+      
+      .footer-a {
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 12px;
+          letter-spacing: 0.923077px;
+          text-transform: uppercase;
+          color: #83888F;
+      }
+      
+      .footer-a:hover {
+          color: #fff;
+          text-decoration: underline;
+      }
+      
+      
